@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lato:wght@300&family=Open+Sans&family=Russo+One&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    font-family: 'Bangers';
+    font-size: 2rem;
+    color:rgb(9, 109, 0);
+    margin-bottom: 10px;
+}
+
+.how {
+    color: rgb(9, 255, 0);
+    text-shadow: 1px 1px 2px black;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.score-number {
+    color: rgb(21, 255, 0);
+    text-shadow: 1px 1px 2px black;
+    font-size: 1.7rem;
+    background: 255,255,255;
+    margin-left: 5px;
+}
+
+.questions-container {
+    max-width: 500px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns:  92% 8%;
+    justify-content: start;
+    font-family: 'russo one';
+    font-weight: 100;
+}
+
+
+.questions-container-B {
+    max-width: 500px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns:  92% 8%;
+    justify-content: start;
+    font-family: 'russo one';
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.names {
+    font-family: 'bangers';
+    color:rgb(255, 251, 0);
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0, 0.8);
+    margin-right: 10px;
+}
+
+.item-lines {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.input {
+    font-size: 1.1rem;
+    font-family: 'russo one';
+    color: rgb(0, 0, 0);
+    width: 3.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    border-style: none;
+    background-color:#fff;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.check {
+    width: 40px;
+    visibility: hidden;
+}
+
+
+
+.translation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 30px;
+    color:rgb(0, 216, 245);
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+.btnTranslation {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #fff;
+    color: darkcyan;
+    -webkit-appearance: none;
+    border-radius: 20px;
+    font-family: 'bangers';
+    font-size: 0.6rem;
+    border-style: none;
+    background-color: #fff;
+    box-shadow: inset 2px 2px 5px 1px rgba(0,0,0,0.2)
+}
+
+.btnTranslation:hover {
+    background-color: rgb(255, 228, 248);
+}
