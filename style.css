@@ -40,7 +40,7 @@
 }
 
 .questions-container {
-    max-width: 500px;
+    max-width: 470px;
     margin: 0px auto;
     display: grid;
     grid-template-columns:  92% 8%;
@@ -51,7 +51,7 @@
 
 
 .questions-container-B {
-    max-width: 500px;
+    max-width: 470px;
     margin: 0px auto;
     display: grid;
     grid-template-columns:  92% 8%;
@@ -103,7 +103,7 @@
     width: 500px;
     height: 30px;
     color:rgb(0, 216, 245);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-shadow: 1px 1px 1px black;
 }
 

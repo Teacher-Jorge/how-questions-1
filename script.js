@@ -234,62 +234,8 @@ btn5T.addEventListener('click', function() {
         btn5T.style.backgroundColor = 'white'
         btn5T.style.color = 'darkcyan'
         translation.innerHTML = ''
+        let audio2 = document.getElementById('howlong')
+        audio2.play()
     }, 1800)
+    
 })
-//Question 06
-let input6 =document.getElementById('input6')
-let check6 = document.getElementById('check6')
-
-input6.addEventListener('keyup', (e) => {
-    if (input6.value === 'many') {
-        audioSword.play()
-        input6.style.color = 'limegreen'
-        check6.style.visibility = 'visible'
-        value++
-        document.getElementById('score').innerHTML = value
-        input6.disabled = true
-    }
-})      
-input6.addEventListener('keyup', (e) => {
-    if (input6.value != 'many') {
-        input6.style.color = 'red'
-    } 
-}) 
-input6.addEventListener('keyup', (e) => {
-    if (input6.value === 'm') {
-        input6.style.color = 'limegreen'
-    } 
-}) 
-input6.addEventListener('keyup', (e) => {
-    if (input6.value === 'ma') {
-        input6.style.color = 'limegreen'
-    } 
-})
-input6.addEventListener('keyup', (e) => {
-    if (input6.value === 'man') {
-        input6.style.color = 'limegreen'
-    } 
-})
-
-btn6T.addEventListener('click', function() {
-    let audio = document.getElementById('clickSound')
-    audio.play()
-    btn6T.style.backgroundColor = 'red'
-    btn6T.style.color = 'yellow'
-    translation.innerHTML = 'Quantos irmãos e irmãs você tem?'
-    setTimeout(function() {
-        btn6T.style.backgroundColor = 'white'
-        btn6T.style.color = 'darkcyan'
-        translation.innerHTML = ''
-    }, 1800)
-})
-
-
-
-
-
-
-
-
-
-
